@@ -4,8 +4,8 @@ import { FaUserCircle } from "react-icons/fa";
 
 export const NavBar = () => {
   return (
-    <div className="mx-20">
-      <nav className="bg-amber-50 flex flex-nowrap items-center whitespace-nowrap mt-10 py-5">
+    <div className="mx-20 pt-6">
+      <nav className="bg-amber-50 flex flex-nowrap items-center whitespace-nowrap py-5">
         <div className="flex-shrink-0 px-8 list-none">
           <li>
             <Link

@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { NavBar } from "./components/NavBar";
 import { MainPage } from "./components/MainPage";
 import { Plans } from "./components/Plans";
 import { Services } from "./components/Services";
@@ -11,7 +10,6 @@ import { BookNow } from "./components/BookNow";
 const App = () => {
   return (
     <Router>
-      <NavBar />
       <Routes>
         <Route path="/" element={<MainPage />}></Route>
         <Route path="/plans" element={<Plans />}></Route>
